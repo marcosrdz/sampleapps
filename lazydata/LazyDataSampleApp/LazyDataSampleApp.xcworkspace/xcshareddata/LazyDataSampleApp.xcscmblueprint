@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04A0DB31333DAD32976C519148791AD7DB34CA88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1CEF482D40CB2FB2A9390DA4BD7DBBFCC931AC07" : 0,
+    "04A0DB31333DAD32976C519148791AD7DB34CA88" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3DC9046C-875E-4DE6-A717-477C83271D13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1CEF482D40CB2FB2A9390DA4BD7DBBFCC931AC07" : "lazydata\/",
+    "04A0DB31333DAD32976C519148791AD7DB34CA88" : "sampleapps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LazyDataSampleApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lazydata\/LazyDataSampleApp\/LazyDataSampleApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcosrdz\/sampleapps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04A0DB31333DAD32976C519148791AD7DB34CA88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcosrdz\/lazydata.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CEF482D40CB2FB2A9390DA4BD7DBBFCC931AC07"
+    }
+  ]
+}
