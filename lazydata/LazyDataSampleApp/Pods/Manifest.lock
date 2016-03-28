@@ -1,0 +1,20 @@
+PODS:
+  - LazyData (0.0.1)
+
+DEPENDENCIES:
+  - LazyData (from `https://github.com/marcosrdz/lazydata.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  LazyData:
+    :branch: master
+    :git: https://github.com/marcosrdz/lazydata.git
+
+CHECKOUT OPTIONS:
+  LazyData:
+    :commit: 0a2f82745a4dfa7d39465f7c62b84a0a43f47348
+    :git: https://github.com/marcosrdz/lazydata.git
+
+SPEC CHECKSUMS:
+  LazyData: 185e0513f410eca52c5ceff3f1648774475acc2e
+
+COCOAPODS: 0.39.0

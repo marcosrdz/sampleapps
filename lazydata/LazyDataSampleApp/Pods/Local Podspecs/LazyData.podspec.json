@@ -1,0 +1,25 @@
+{
+  "name": "LazyData",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "version": "0.0.1",
+  "summary": "Lazy Data is a high-level Core Data framework which will facilitate the use of Core Data for multiple tasks.",
+  "homepage": "http://www.nsmarcos.com",
+  "authors": {
+    "Marcos Rodriguez": "marcos@nsmarcos.com"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/marcosrdz/lazydata.git",
+    "tag": "v0.0.1",
+    "submodules": true,
+    "commit": "78da987a15ad9eded787ca898f9bac7cb94e2861"
+  },
+  "source_files": "LazyData/**/*.{h,swift}",
+  "exclude_files": "LazyData/Lazy DataTests/**/*.{h,m,swift}"
+}

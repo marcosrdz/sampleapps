@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Test.xcscheme</key>
+		<key>LazyData.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Test.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B405E2591C98DE6300BEC020</key>
+		<key>11FA3510E704F7D71531C162D2D49AD3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B405E26D1C98DE6300BEC020</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B405E2781C98DE6300BEC020</key>
+		<key>B442B9C940622D4BA85DC1ED18284229</key>
 		<dict>
 			<key>primary</key>
 			<true/>
