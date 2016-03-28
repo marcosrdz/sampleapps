@@ -49,12 +49,8 @@ class ViewController: UIViewController, LazyDataTableViewDataSource {
     }
     
     func lazyDataCommitEditingStyle(editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        switch editingStyle {
-        case .Delete:
-            print("")
+        if editingStyle == .Delete {
             LazyData.deleteObject(controller.fetchedResultsController.objectAtIndexPath(indexPath) as! NSManagedObject)
-        default:
-            print("")
         }
     }
     
