@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Test
+//  LazyDataSampleApp
 //
-//  Created by Marcos Rodriguez on 3/15/16.
+//  Created by Marcos Rodriguez on 3/27/16.
 //  Copyright © 2016 Marcos Rodriguez Vélez. All rights reserved.
 //
 

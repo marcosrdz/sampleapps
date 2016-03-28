@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Test/LazyData.framework"
+  install_framework "Pods-LazyDataSampleApp/LazyData.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Test/LazyData.framework"
+  install_framework "Pods-LazyDataSampleApp/LazyData.framework"
 fi

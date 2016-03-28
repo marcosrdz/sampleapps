@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Test.xcscheme</key>
+		<key>LazyDataSampleApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B405E2591C98DE6300BEC020</key>
+		<key>B4D458361CA8C2D10064F2B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B405E26D1C98DE6300BEC020</key>
+		<key>B4D4584A1CA8C2D20064F2B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B405E2781C98DE6300BEC020</key>
+		<key>B4D458551CA8C2D20064F2B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

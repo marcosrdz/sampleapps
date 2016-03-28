@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LazyData:
-    :commit: 0a2f82745a4dfa7d39465f7c62b84a0a43f47348
+    :commit: 1797c65be3dd4caa4edba223fdd78cee4c7e42a2
     :git: https://github.com/marcosrdz/lazydata.git
 
 SPEC CHECKSUMS:

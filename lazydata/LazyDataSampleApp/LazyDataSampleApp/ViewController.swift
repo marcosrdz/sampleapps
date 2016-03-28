@@ -36,7 +36,7 @@ class ViewController: UIViewController, LazyDataTableViewDataSource {
     
     // MARK: - LazyDataTableViewDataSource
     
-    func lazyDataCellForRowAtIndexPath(cell cell: UITableViewCell, managedObject: NSManagedObject?, indexPath: NSIndexPath) {
+    func lazyDataCellForRowAtIndexPath(cell: UITableViewCell, managedObject: NSManagedObject?, indexPath: NSIndexPath) {
         cell.textLabel?.text = (managedObject as? Person)?.name
     }
     

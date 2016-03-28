@@ -22,13 +22,13 @@ public class LazyData: NSObject {
     private var storeType: LazyDataStoreType = .Persistent
     
     private lazy var managedObjectModel: NSManagedObjectModel = {
-        let modelURL = NSBundle.mainBundle().URLForResource(LazyData.sharedInstance.dataModelName, withExtension: "momd")!
+        let modelURL = NSBundle.mainBundle().URLForResource(LazyData.sharedInstance.dataModelName, withExtension: nil)!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
     
     public class func configure(dataModelName dataModelName: String? = nil, storeType: LazyDataStoreType) {
         /* Reset the managed object context if the passed storeType is temporary, or if it previously was persistent, but it'll now change to temporary. */
-        if storeType == .Temporary || (LazyData.sharedInstance.storeType == .Persistent && storeType == .Temporary) {
+        if let _ = dataModelName where storeType == .Temporary || (LazyData.sharedInstance.storeType == .Persistent && storeType == .Temporary) {
             LazyData.reset()
             LazyData.save()
         }
@@ -39,8 +39,18 @@ public class LazyData: NSObject {
             LazyData.sharedInstance.dataModelName = dataModelName
         }
         else {
-            let filePath = NSBundle.mainBundle().pathsForResourcesOfType("momd", inDirectory: nil) as [NSString]
-            LazyData.sharedInstance.dataModelName = filePath.last?.lastPathComponent
+            // Could be *.mom or *.momd
+            var filePath = NSBundle.mainBundle().pathsForResourcesOfType("momd", inDirectory: nil) as [NSString]
+            if filePath.count > 0 {
+                LazyData.sharedInstance.dataModelName = filePath.last?.lastPathComponent
+            }
+            else {
+                filePath = NSBundle.mainBundle().pathsForResourcesOfType("mom", inDirectory: nil) as [NSString]
+                if filePath.count > 0 {
+                    LazyData.sharedInstance.dataModelName = filePath.last?.lastPathComponent
+                }
+            }
+            
         }
         
         LazyData.sharedInstance.storeType = storeType

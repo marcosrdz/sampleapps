@@ -1,5 +1,5 @@
 use_frameworks!
 
-target 'Test' do
+target 'LazyDataSampleApp' do
   pod 'LazyData', :git => 'https://github.com/marcosrdz/lazydata.git', :branch => 'master'
 end

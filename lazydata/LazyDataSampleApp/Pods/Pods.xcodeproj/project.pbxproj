@@ -21,64 +21,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0EF79920E7F233AB33EBBA74012C36DD</key>
+		<key>0FC66AE548D8C8464495386774E0CE83</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>6CB1BAC3B8509BDA8577B6A32CEDE6D9</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Test.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F33C0FE0FF5E644BAE7D674D7CDDEF5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8B029D9145926424290A407AC10DBD8D</string>
-				<string>2B107CDFEA1D2CB5EC761D3F98221BA9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>11FA3510E704F7D71531C162D2D49AD3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0F33C0FE0FF5E644BAE7D674D7CDDEF5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>80B7724580B2F2D3E7278BC308D7E4FB</string>
-				<string>CEB69BE7406076B1DA5EED8FC2969036</string>
-				<string>F8389F671B37E6A5840846B613E24217</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F85BAD2FB0715518AB7DF5E7278FB999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Test</string>
-			<key>productName</key>
-			<string>Pods-Test</string>
-			<key>productReference</key>
-			<string>D70651E5D4A1C0D2AF31B9A688857FB7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>14D827FFF2E136293432CA07F71BB668</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>8CE4C88321B7A2219AFBDA365CACEF8F</string>
-				<string>A57948D27CAD90403E13C0D7A565F84C</string>
+				<string>EE8033A2C02CBEA355229B6CDFE42EF0</string>
+				<string>3877FCEEB2B106811485BF745F1C18B0</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -94,6 +49,43 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>1C213591A2E3DAD450115DE01B7F34F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20D411D66060DDB29A4788262C921FCE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B442B9C940622D4BA85DC1ED18284229</string>
+			<key>remoteInfo</key>
+			<string>LazyData</string>
+		</dict>
+		<key>218A07D955D6ABABC48FBC2C8DAD4856</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>254D639F58067CE030E6B06E71CBA044</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -108,264 +100,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2B107CDFEA1D2CB5EC761D3F98221BA9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>631DA04CD9309D38A36261F971CA08DA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Test/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Test/Pods-Test.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Test</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8D1534490D941DCA47C62AC4314182AF</string>
-				<string>C5A18280E9321A9268D1C80B7DA43967</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3167A7C5A247EBE3E6926CBF8C82E19F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71D6F4EFBC5F70E0BC10526EA8B00BC8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3617788CF61ED961A06604B6B0E168CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>LazyData+Fetch.swift</string>
-			<key>path</key>
-			<string>LazyData/Lazy Data/LazyData+Fetch.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>370BB1FF4B0B8F3D63DAB1E0841DA93F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38A6F90DC70E58477CA07CA67B011C28</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3617788CF61ED961A06604B6B0E168CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>392867D7900D2015F92CFA9650217690</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A8AA661B1D331CE204234A65ED0AC214</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>523A92D165E2E8B39C5EC72BE1EFB0C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD6C9935ADD45470ACD7A8BD829BED3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>57A5A82C5B98DB280F4D11B552A01505</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AA7EB3E6E2247B5EAF2B1F75466833B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>583A29312C95D477D8E20C888A02B06F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79005081DA4A666B4B1DC9B016631795</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>58D7D45060CFEFE5435F20014AACDAC4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>872F05548AE0F3CEF1F30920479D1E1B</string>
-				<string>0B5F7239D69856415AF6F3BAA417A986</string>
-				<string>F761779DA454026695E8B6B4A80647B4</string>
-				<string>5D1F154E3600122D097DFAE5369E6F21</string>
-				<string>9AACEDE19D2F24BC379CB55A82BD93A2</string>
-				<string>C7DEAF403DA1BA470770531F74F32264</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/LazyData</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D1F154E3600122D097DFAE5369E6F21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LazyData-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F67E7CBF4ED8B77832EF86262044E7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7DEAF403DA1BA470770531F74F32264</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5FE9EF79ACD306632FF924A7200062BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Test-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>631DA04CD9309D38A36261F971CA08DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Test.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>649AB7FDA2C0B28BC27E0EA64BDA94C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Test-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64F36378C8A4284D1F56465700798803</key>
+		<key>25E6A06F3106A0706EBE4010BCF04A29</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -374,303 +109,11 @@
 			<key>lastKnownFileType</key>
 			<string>text</string>
 			<key>path</key>
-			<string>Pods-Test-acknowledgements.markdown</string>
+			<string>Pods-LazyDataSampleApp-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>67A06FDCC32E0E3365130F4747A552A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Test-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6819DB1C2AF6039952B5ADB203AD3A5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2B956955704171E33DF36F4374B4E20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6B4ACE6705B4762AD590DE3C4508A459</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>LazyData+Update.swift</string>
-			<key>path</key>
-			<string>LazyData/Lazy Data/LazyData+Update.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F24CBD171866C8B26F1E5C0CF8C1062</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EE9C6341DC849D4818AD30079BCB3257</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>71D6F4EFBC5F70E0BC10526EA8B00BC8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2B956955704171E33DF36F4374B4E20</string>
-				<string>FAD6C9935ADD45470ACD7A8BD829BED3</string>
-				<string>EE9C6341DC849D4818AD30079BCB3257</string>
-				<string>3617788CF61ED961A06604B6B0E168CA</string>
-				<string>7466D7D4DBB358D821D7E58ED255B19B</string>
-				<string>79005081DA4A666B4B1DC9B016631795</string>
-				<string>6B4ACE6705B4762AD590DE3C4508A459</string>
-				<string>A72CC9CC5CAE72AE1194AAD48DFC7F36</string>
-				<string>58D7D45060CFEFE5435F20014AACDAC4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LazyData</string>
-			<key>path</key>
-			<string>LazyData</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7466D7D4DBB358D821D7E58ED255B19B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>LazyData+FetchedResultsController.swift</string>
-			<key>path</key>
-			<string>LazyData/Lazy Data/LazyData+FetchedResultsController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79005081DA4A666B4B1DC9B016631795</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>LazyData+Insert.swift</string>
-			<key>path</key>
-			<string>LazyData/Lazy Data/LazyData+Insert.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BE321C65F2381BD2E9E62937300ABA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7466D7D4DBB358D821D7E58ED255B19B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>3167A7C5A247EBE3E6926CBF8C82E19F</string>
-				<string>AFCD6690F3B9AFC6BEB9FC6501FC08BB</string>
-				<string>57A5A82C5B98DB280F4D11B552A01505</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80B7724580B2F2D3E7278BC308D7E4FB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F50D9C825081115A4D0EDC79883CE6B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>83E61D628DDD62BF22AC10816A363E50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D1F154E3600122D097DFAE5369E6F21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>872F05548AE0F3CEF1F30920479D1E1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B029D9145926424290A407AC10DBD8D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E048F787477130205467EF03CE43BD55</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Test/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Test/Pods-Test.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Test</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8BC6D2EEA16D62FF7EEBBF172DDE0F0F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B442B9C940622D4BA85DC1ED18284229</string>
-			<key>remoteInfo</key>
-			<string>LazyData</string>
-		</dict>
-		<key>8CE4C88321B7A2219AFBDA365CACEF8F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F761779DA454026695E8B6B4A80647B4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LazyData/LazyData-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LazyData/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LazyData/LazyData.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LazyData</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D1534490D941DCA47C62AC4314182AF</key>
+		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -730,7 +173,7 @@
 				<key>GCC_WARN_UNUSED_VARIABLE</key>
 				<string>YES</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
+				<string>9.3</string>
 				<key>ONLY_ACTIVE_ARCH</key>
 				<string>YES</string>
 				<key>STRIP_INSTALLED_PRODUCT</key>
@@ -743,7 +186,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>9AACEDE19D2F24BC379CB55A82BD93A2</key>
+		<key>2C5133BDDBFDB02378D609945DAE3684</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -752,25 +195,81 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>LazyData-prefix.pch</string>
+			<string>Pods-LazyDataSampleApp-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A176EF5A198CE0E52492C8D3B4F0BFE9</key>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AD4ACCD91022E2EDD40E753F61230C1F</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2B389FAB51F6EEA43F72CA7BDC8E8E28</string>
+				<string>5A0C6FE968931D888F00C9EC18DDF5BC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>A57948D27CAD90403E13C0D7A565F84C</key>
+		<key>3167A7C5A247EBE3E6926CBF8C82E19F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>71D6F4EFBC5F70E0BC10526EA8B00BC8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>36073D21B47723F63BC4BFDFFBF3ABA8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_LazyDataSampleApp.framework</string>
+			<key>path</key>
+			<string>Pods_LazyDataSampleApp.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3617788CF61ED961A06604B6B0E168CA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LazyData+Fetch.swift</string>
+			<key>path</key>
+			<string>LazyData/Lazy Data/LazyData+Fetch.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>378C760DDA58C0B7A8AFF9FD70730ACF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3877FCEEB2B106811485BF745F1C18B0</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>F761779DA454026695E8B6B4A80647B4</string>
@@ -797,7 +296,7 @@
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
+				<string>9.3</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -826,201 +325,145 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A72CC9CC5CAE72AE1194AAD48DFC7F36</key>
+		<key>38A6F90DC70E58477CA07CA67B011C28</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>3617788CF61ED961A06604B6B0E168CA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>392867D7900D2015F92CFA9650217690</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A8AA661B1D331CE204234A65ED0AC214</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>LazyDataTableViewController.swift</string>
+			<string>Foundation.framework</string>
 			<key>path</key>
-			<string>LazyData/Lazy Data/LazyDataTableViewController.swift</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>A8AA661B1D331CE204234A65ED0AC214</key>
+		<key>4925287E949213F42E1EE11559CC2E4D</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A9BCBE5D92425A5616D87F0F7F6A8FB0</key>
+		<key>4D951B0D923F46C9705DAF352BE09987</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>766258C08645276C4075EE8B14D34138</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-LazyDataSampleApp/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-LazyDataSampleApp/Pods-LazyDataSampleApp.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_LazyDataSampleApp</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Test-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA7EB3E6E2247B5EAF2B1F75466833B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF4402B85EEFCBC1097EC6236D4DD5DF</string>
-				<string>0EF79920E7F233AB33EBBA74012C36DD</string>
-				<string>64F36378C8A4284D1F56465700798803</string>
-				<string>67A06FDCC32E0E3365130F4747A552A6</string>
-				<string>A9BCBE5D92425A5616D87F0F7F6A8FB0</string>
-				<string>5FE9EF79ACD306632FF924A7200062BB</string>
-				<string>649AB7FDA2C0B28BC27E0EA64BDA94C7</string>
-				<string>AD4ACCD91022E2EDD40E753F61230C1F</string>
-				<string>E048F787477130205467EF03CE43BD55</string>
-				<string>631DA04CD9309D38A36261F971CA08DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Pods-Test</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Test</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Debug</string>
 		</dict>
-		<key>AC24268AC5D40D9734675A6512B50B85</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6F24CBD171866C8B26F1E5C0CF8C1062</string>
-				<string>38A6F90DC70E58477CA07CA67B011C28</string>
-				<string>7BE321C65F2381BD2E9E62937300ABA1</string>
-				<string>583A29312C95D477D8E20C888A02B06F</string>
-				<string>196B7034E16BD2C665DD1028299A2FD1</string>
-				<string>83E61D628DDD62BF22AC10816A363E50</string>
-				<string>523A92D165E2E8B39C5EC72BE1EFB0C8</string>
-				<string>BDBEBA8C42FAE3847BE181E63E2F1BCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AD4ACCD91022E2EDD40E753F61230C1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Test-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFCD6690F3B9AFC6BEB9FC6501FC08BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE7582CDEF45502078918E20612E40D6</string>
-				<string>D70651E5D4A1C0D2AF31B9A688857FB7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B442B9C940622D4BA85DC1ED18284229</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>14D827FFF2E136293432CA07F71BB668</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AC24268AC5D40D9734675A6512B50B85</string>
-				<string>392867D7900D2015F92CFA9650217690</string>
-				<string>254D639F58067CE030E6B06E71CBA044</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LazyData</string>
-			<key>productName</key>
-			<string>LazyData</string>
-			<key>productReference</key>
-			<string>DE7582CDEF45502078918E20612E40D6</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDBEBA8C42FAE3847BE181E63E2F1BCD</key>
+		<key>523A92D165E2E8B39C5EC72BE1EFB0C8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A72CC9CC5CAE72AE1194AAD48DFC7F36</string>
+			<string>FAD6C9935ADD45470ACD7A8BD829BED3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BF4402B85EEFCBC1097EC6236D4DD5DF</key>
+		<key>583A29312C95D477D8E20C888A02B06F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>79005081DA4A666B4B1DC9B016631795</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<key>58D7D45060CFEFE5435F20014AACDAC4</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
+				<string>872F05548AE0F3CEF1F30920479D1E1B</string>
+				<string>0B5F7239D69856415AF6F3BAA417A986</string>
+				<string>F761779DA454026695E8B6B4A80647B4</string>
+				<string>5D1F154E3600122D097DFAE5369E6F21</string>
+				<string>9AACEDE19D2F24BC379CB55A82BD93A2</string>
+				<string>C7DEAF403DA1BA470770531F74F32264</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/LazyData</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C5A18280E9321A9268D1C80B7DA43967</key>
+		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1075,7 +518,7 @@
 				<key>GCC_WARN_UNUSED_VARIABLE</key>
 				<string>YES</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
+				<string>9.3</string>
 				<key>STRIP_INSTALLED_PRODUCT</key>
 				<string>NO</string>
 				<key>SYMROOT</key>
@@ -1087,6 +530,540 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>5D1F154E3600122D097DFAE5369E6F21</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LazyData-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F67E7CBF4ED8B77832EF86262044E7F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C7DEAF403DA1BA470770531F74F32264</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6819DB1C2AF6039952B5ADB203AD3A5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E2B956955704171E33DF36F4374B4E20</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6B4ACE6705B4762AD590DE3C4508A459</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LazyData+Update.swift</string>
+			<key>path</key>
+			<string>LazyData/Lazy Data/LazyData+Update.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CB1BAC3B8509BDA8577B6A32CEDE6D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F24CBD171866C8B26F1E5C0CF8C1062</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE9C6341DC849D4818AD30079BCB3257</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71D6F4EFBC5F70E0BC10526EA8B00BC8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E2B956955704171E33DF36F4374B4E20</string>
+				<string>FAD6C9935ADD45470ACD7A8BD829BED3</string>
+				<string>EE9C6341DC849D4818AD30079BCB3257</string>
+				<string>3617788CF61ED961A06604B6B0E168CA</string>
+				<string>7466D7D4DBB358D821D7E58ED255B19B</string>
+				<string>79005081DA4A666B4B1DC9B016631795</string>
+				<string>6B4ACE6705B4762AD590DE3C4508A459</string>
+				<string>A72CC9CC5CAE72AE1194AAD48DFC7F36</string>
+				<string>58D7D45060CFEFE5435F20014AACDAC4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>LazyData</string>
+			<key>path</key>
+			<string>LazyData</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7466D7D4DBB358D821D7E58ED255B19B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LazyData+FetchedResultsController.swift</string>
+			<key>path</key>
+			<string>LazyData/Lazy Data/LazyData+FetchedResultsController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>766258C08645276C4075EE8B14D34138</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79005081DA4A666B4B1DC9B016631795</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LazyData+Insert.swift</string>
+			<key>path</key>
+			<string>LazyData/Lazy Data/LazyData+Insert.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BE321C65F2381BD2E9E62937300ABA1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7466D7D4DBB358D821D7E58ED255B19B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7D87977641B30DCFFA41EBA4F29E67C5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C13A222C90E255401E7A6F1594B1C0EC</string>
+				<string>36073D21B47723F63BC4BFDFFBF3ABA8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>3167A7C5A247EBE3E6926CBF8C82E19F</string>
+				<string>7D87977641B30DCFFA41EBA4F29E67C5</string>
+				<string>FFE3D64E0DD60F40D409508766F68CD1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83E61D628DDD62BF22AC10816A363E50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D1F154E3600122D097DFAE5369E6F21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>872F05548AE0F3CEF1F30920479D1E1B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8919E7B5F1721DE29667BFC5B20B40B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9AACEDE19D2F24BC379CB55A82BD93A2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LazyData-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4D11447A5D1C1B9A467E8521653D826</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A72CC9CC5CAE72AE1194AAD48DFC7F36</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LazyDataTableViewController.swift</string>
+			<key>path</key>
+			<string>LazyData/Lazy Data/LazyDataTableViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A864DE9E686418320293AD251847DD28</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>AC5FEB501B6EF35A0BF3F38F6343336C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CAB5648FA52F9B00D85CDAF09063AE2E</string>
+				<string>FF9DDEAF25C119F1E87DDE96067A00D8</string>
+				<string>D10D59B64E3CCFDF498A7562B0A940E9</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>BB10001150E54FF1EFEA8DA9A824CA98</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-LazyDataSampleApp</string>
+			<key>productName</key>
+			<string>Pods-LazyDataSampleApp</string>
+			<key>productReference</key>
+			<string>36073D21B47723F63BC4BFDFFBF3ABA8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>A8AA661B1D331CE204234A65ED0AC214</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AC24268AC5D40D9734675A6512B50B85</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6F24CBD171866C8B26F1E5C0CF8C1062</string>
+				<string>38A6F90DC70E58477CA07CA67B011C28</string>
+				<string>7BE321C65F2381BD2E9E62937300ABA1</string>
+				<string>583A29312C95D477D8E20C888A02B06F</string>
+				<string>196B7034E16BD2C665DD1028299A2FD1</string>
+				<string>83E61D628DDD62BF22AC10816A363E50</string>
+				<string>523A92D165E2E8B39C5EC72BE1EFB0C8</string>
+				<string>BDBEBA8C42FAE3847BE181E63E2F1BCD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>AC5FEB501B6EF35A0BF3F38F6343336C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>4D951B0D923F46C9705DAF352BE09987</string>
+				<string>C2A1BCC634AC8865EA58695ED7EB02A3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B0E7B39FC742C4E52FC67A787DEB2CD3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1C213591A2E3DAD450115DE01B7F34F9</string>
+				<string>218A07D955D6ABABC48FBC2C8DAD4856</string>
+				<string>25E6A06F3106A0706EBE4010BCF04A29</string>
+				<string>8919E7B5F1721DE29667BFC5B20B40B3</string>
+				<string>6CB1BAC3B8509BDA8577B6A32CEDE6D9</string>
+				<string>378C760DDA58C0B7A8AFF9FD70730ACF</string>
+				<string>C44383391A5598F8D2D7ABF105ECCB72</string>
+				<string>2C5133BDDBFDB02378D609945DAE3684</string>
+				<string>766258C08645276C4075EE8B14D34138</string>
+				<string>A4D11447A5D1C1B9A467E8521653D826</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-LazyDataSampleApp</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-LazyDataSampleApp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3D8B263AA03F53A38FB1F9966DB23AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C5133BDDBFDB02378D609945DAE3684</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B442B9C940622D4BA85DC1ED18284229</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>14D827FFF2E136293432CA07F71BB668</string>
+			<key>buildPhases</key>
+			<array>
+				<string>AC24268AC5D40D9734675A6512B50B85</string>
+				<string>392867D7900D2015F92CFA9650217690</string>
+				<string>254D639F58067CE030E6B06E71CBA044</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LazyData</string>
+			<key>productName</key>
+			<string>LazyData</string>
+			<key>productReference</key>
+			<string>C13A222C90E255401E7A6F1594B1C0EC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BB10001150E54FF1EFEA8DA9A824CA98</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>LazyData</string>
+			<key>target</key>
+			<string>B442B9C940622D4BA85DC1ED18284229</string>
+			<key>targetProxy</key>
+			<string>20D411D66060DDB29A4788262C921FCE</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BDBEBA8C42FAE3847BE181E63E2F1BCD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A72CC9CC5CAE72AE1194AAD48DFC7F36</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C13A222C90E255401E7A6F1594B1C0EC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>LazyData.framework</string>
+			<key>path</key>
+			<string>LazyData.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C2A1BCC634AC8865EA58695ED7EB02A3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A4D11447A5D1C1B9A467E8521653D826</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-LazyDataSampleApp/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-LazyDataSampleApp/Pods-LazyDataSampleApp.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_LazyDataSampleApp</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C44383391A5598F8D2D7ABF105ECCB72</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-LazyDataSampleApp-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C7DEAF403DA1BA470770531F74F32264</key>
 		<dict>
@@ -1101,16 +1078,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CEB69BE7406076B1DA5EED8FC2969036</key>
+		<key>CAB5648FA52F9B00D85CDAF09063AE2E</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>370BB1FF4B0B8F3D63DAB1E0841DA93F</string>
+				<string>0FC66AE548D8C8464495386774E0CE83</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D10D59B64E3CCFDF498A7562B0A940E9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B3D8B263AA03F53A38FB1F9966DB23AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -1140,7 +1130,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>AFCD6690F3B9AFC6BEB9FC6501FC08BB</string>
+			<string>7D87977641B30DCFFA41EBA4F29E67C5</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1150,51 +1140,8 @@
 			<key>targets</key>
 			<array>
 				<string>B442B9C940622D4BA85DC1ED18284229</string>
-				<string>11FA3510E704F7D71531C162D2D49AD3</string>
+				<string>A864DE9E686418320293AD251847DD28</string>
 			</array>
-		</dict>
-		<key>D70651E5D4A1C0D2AF31B9A688857FB7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Test.framework</string>
-			<key>path</key>
-			<string>Pods_Test.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DE7582CDEF45502078918E20612E40D6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LazyData.framework</string>
-			<key>path</key>
-			<string>LazyData.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E048F787477130205467EF03CE43BD55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Test.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E2B956955704171E33DF36F4374B4E20</key>
 		<dict>
@@ -1211,6 +1158,64 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>EE8033A2C02CBEA355229B6CDFE42EF0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F761779DA454026695E8B6B4A80647B4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/LazyData/LazyData-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/LazyData/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/LazyData/LazyData.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>LazyData</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>EE9C6341DC849D4818AD30079BCB3257</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1226,13 +1231,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F50D9C825081115A4D0EDC79883CE6B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9BCBE5D92425A5616D87F0F7F6A8FB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>F761779DA454026695E8B6B4A80647B4</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1246,30 +1244,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8389F671B37E6A5840846B613E24217</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A176EF5A198CE0E52492C8D3B4F0BFE9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F85BAD2FB0715518AB7DF5E7278FB999</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LazyData</string>
-			<key>target</key>
-			<string>B442B9C940622D4BA85DC1ED18284229</string>
-			<key>targetProxy</key>
-			<string>8BC6D2EEA16D62FF7EEBBF172DDE0F0F</string>
-		</dict>
 		<key>FAD6C9935ADD45470ACD7A8BD829BED3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1282,6 +1256,32 @@
 			<string>LazyData.swift</string>
 			<key>path</key>
 			<string>LazyData/Lazy Data/LazyData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF9DDEAF25C119F1E87DDE96067A00D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4925287E949213F42E1EE11559CC2E4D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FFE3D64E0DD60F40D409508766F68CD1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B0E7B39FC742C4E52FC67A787DEB2CD3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

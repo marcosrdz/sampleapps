@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9612716AC743E6F77AA613C3'
-               BlueprintName = 'Pods-Test'
+               BlueprintIdentifier = 'C1064F1EF625DE5670FA108D'
+               BlueprintName = 'Pods-LazyDataSampleApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_Test.framework'>
+               BuildableName = 'Pods_LazyDataSampleApp.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

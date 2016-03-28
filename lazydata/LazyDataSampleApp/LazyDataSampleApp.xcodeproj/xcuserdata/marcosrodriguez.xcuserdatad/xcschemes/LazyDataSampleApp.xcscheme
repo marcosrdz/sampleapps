@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B405E2591C98DE6300BEC020"
+               BlueprintIdentifier = "B4D458361CA8C2D10064F2B2"
                BuildableName = "LazyDataSampleApp.app"
                BlueprintName = "LazyDataSampleApp"
                ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B405E26D1C98DE6300BEC020"
-               BuildableName = "LazyDataSampleApp.xctest"
-               BlueprintName = "LazyDataSampleAppLazyDataSampleApps"
+               BlueprintIdentifier = "B4D4584A1CA8C2D20064F2B2"
+               BuildableName = "LazyDataSampleAppTests.xctest"
+               BlueprintName = "LazyDataSampleAppTests"
                ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B405E2781C98DE6300BEC020"
-               BuildableName = "LazyDataSampleApp.xctest"
-               BlueprintName = "LazyDataSampleAppUILazyDataSampleApps"
+               BlueprintIdentifier = "B4D458551CA8C2D20064F2B2"
+               BuildableName = "LazyDataSampleAppUITests.xctest"
+               BlueprintName = "LazyDataSampleAppUITests"
                ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B405E2591C98DE6300BEC020"
+            BlueprintIdentifier = "B4D458361CA8C2D10064F2B2"
             BuildableName = "LazyDataSampleApp.app"
             BlueprintName = "LazyDataSampleApp"
             ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B405E2591C98DE6300BEC020"
+            BlueprintIdentifier = "B4D458361CA8C2D10064F2B2"
             BuildableName = "LazyDataSampleApp.app"
             BlueprintName = "LazyDataSampleApp"
             ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B405E2591C98DE6300BEC020"
+            BlueprintIdentifier = "B4D458361CA8C2D10064F2B2"
             BuildableName = "LazyDataSampleApp.app"
             BlueprintName = "LazyDataSampleApp"
             ReferencedContainer = "container:LazyDataSampleApp.xcodeproj">

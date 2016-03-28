@@ -12,13 +12,15 @@ import CoreData
 
 @objc public protocol LazyDataTableViewDataSource: class {
     
-    func lazyDataCellForRowAtIndexPath(cell cell: UITableViewCell, managedObject: NSManagedObject?, indexPath: NSIndexPath)
+    func lazyDataCellForRowAtIndexPath(cell: UITableViewCell, managedObject: NSManagedObject?, indexPath: NSIndexPath)
     
     func lazyDataCellIdentifierForRowAtIndexPath(indexPath: NSIndexPath) -> String
     
     optional func lazyDataCanEditRowAtIndexPath(indexPath: NSIndexPath) -> Bool
     
     optional func lazyDataContentDidChange()
+    
+    optional func lazyDataCommitEditingStyle(editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
     
 }
 
@@ -79,7 +81,7 @@ import CoreData
         }
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
-        dataSource?.lazyDataCellForRowAtIndexPath(cell: cell, managedObject: managedObjectAtIndexPath, indexPath: indexPath)
+        dataSource?.lazyDataCellForRowAtIndexPath(cell, managedObject: managedObjectAtIndexPath, indexPath: indexPath)
         return cell
     }
     
@@ -88,6 +90,12 @@ import CoreData
             return false
         }
         return lazyDataCanEditRowAtIndexPath(indexPath)
+    }
+    
+    public func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if let lazyDataCommitEditingStyle = dataSource?.lazyDataCommitEditingStyle {
+            lazyDataCommitEditingStyle(editingStyle, forRowAtIndexPath: indexPath)
+        }
     }
     
     public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {

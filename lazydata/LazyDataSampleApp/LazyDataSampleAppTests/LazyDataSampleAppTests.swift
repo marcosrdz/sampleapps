@@ -1,15 +1,15 @@
 //
-//  TestTests.swift
-//  TestTests
+//  LazyDataSampleAppTests.swift
+//  LazyDataSampleAppTests
 //
-//  Created by Marcos Rodriguez on 3/15/16.
+//  Created by Marcos Rodriguez on 3/27/16.
 //  Copyright © 2016 Marcos Rodriguez Vélez. All rights reserved.
 //
 
 import XCTest
-@testable import Test
+@testable import LazyDataSampleApp
 
-class TestTests: XCTestCase {
+class LazyDataSampleAppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
