@@ -40,12 +40,12 @@ public class LazyData: NSObject {
         }
         else {
             // Could be *.mom or *.momd
-            var filePath = NSBundle.mainBundle().pathsForResourcesOfType("momd", inDirectory: nil) as [NSString]
+            var filePath = NSBundle.mainBundle().pathsForResourcesOfType("mom", inDirectory: nil) as [NSString]
             if filePath.count > 0 {
                 LazyData.sharedInstance.dataModelName = filePath.last?.lastPathComponent
             }
             else {
-                filePath = NSBundle.mainBundle().pathsForResourcesOfType("mom", inDirectory: nil) as [NSString]
+                filePath = NSBundle.mainBundle().pathsForResourcesOfType("momd", inDirectory: nil) as [NSString]
                 if filePath.count > 0 {
                     LazyData.sharedInstance.dataModelName = filePath.last?.lastPathComponent
                 }

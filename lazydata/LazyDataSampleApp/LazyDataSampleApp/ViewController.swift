@@ -44,5 +44,38 @@ class ViewController: UIViewController, LazyDataTableViewDataSource {
         return "Cell"
     }
     
+    func lazyDataCanEditRowAtIndexPath(indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    
+    func lazyDataCommitEditingStyle(editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        switch editingStyle {
+        case .Delete:
+            print("")
+            LazyData.deleteObject(controller.fetchedResultsController.objectAtIndexPath(indexPath) as! NSManagedObject)
+        default:
+            print("")
+        }
+    }
+    
+    // MARK: - Sample
+    
+    @IBAction func addButtonTapped(sender: AnyObject) {
+        let alertController = UIAlertController(title: "Add", message: nil, preferredStyle: .Alert)
+        alertController.addTextFieldWithConfigurationHandler { (textField: UITextField) in
+            
+        }
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: { (action: UIAlertAction) in
+            alertController.dismissViewControllerAnimated(true, completion: nil)
+        }))
+        alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action: UIAlertAction) in
+            guard let name = alertController.textFields?.first?.text else {
+                return
+            }
+            LazyData.insertObject(entityName: "Person", dictionary: ["name" : name])
+        }))
+        presentViewController(alertController, animated: true, completion: nil)
+    }
+    
 }
 
