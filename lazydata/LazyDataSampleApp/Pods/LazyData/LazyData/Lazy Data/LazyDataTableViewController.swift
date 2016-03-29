@@ -20,7 +20,7 @@ import CoreData
     
     optional func lazyDataContentDidChange()
     
-    optional func lazyDataCommitEditingStyle(editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
+    optional func lazyDataDeleteObject(managedObject: NSManagedObject, forRowAtIndexPath indexPath: NSIndexPath)
     
 }
 
@@ -38,12 +38,16 @@ import CoreData
             }
         }
     }
+    
     private var tableView: UITableView
+    
     public weak var dataSource: LazyDataTableViewDataSource? {
         didSet {
             tableView.reloadData()
         }
     }
+    
+    public var useCustomEditActions: Bool = false
     
     // MARK: - Initializer
     
@@ -93,8 +97,13 @@ import CoreData
     }
     
     public func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if let lazyDataCommitEditingStyle = dataSource?.lazyDataCommitEditingStyle {
-            lazyDataCommitEditingStyle(editingStyle, forRowAtIndexPath: indexPath)
+        guard let managedObject = fetchedResultsController.objectAtIndexPath(indexPath) as? NSManagedObject else {
+            return
+        }
+        if editingStyle == .Delete {
+            if let lazyDataDeleteObject = dataSource?.lazyDataDeleteObject {
+                lazyDataDeleteObject(managedObject, forRowAtIndexPath: indexPath)
+            }
         }
     }
     
@@ -107,6 +116,15 @@ import CoreData
     
     public func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
         return fetchedResultsController.sectionIndexTitles
+    }
+    
+    // MARK: - UITableViewDelegate
+    
+    public func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        if !useCustomEditActions {
+            
+        }
+        return nil
     }
     
     // MARK: - NSFetchedResultsControllerDelegate

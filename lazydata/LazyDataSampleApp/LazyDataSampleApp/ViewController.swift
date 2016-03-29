@@ -48,10 +48,8 @@ class ViewController: UIViewController, LazyDataTableViewDataSource {
         return true
     }
     
-    func lazyDataCommitEditingStyle(editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            LazyData.deleteObject(controller.fetchedResultsController.objectAtIndexPath(indexPath) as! NSManagedObject)
-        }
+    func lazyDataDeleteObject(managedObject: NSManagedObject, forRowAtIndexPath indexPath: NSIndexPath) {
+        LazyData.deleteObject(managedObject)
     }
     
     // MARK: - Sample
